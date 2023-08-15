@@ -1,0 +1,13 @@
+Flat list -> using usecall and useMemo bcause app ki performance increase ho, 
+because some times boht sara data hota hai jo load hota hai, 
+so un necesary re-rendering hoti hai usko sahi krege. 
+By using callback and useMemo hook, 
+
+Overall-> large data ke sath apni flayt list ko kese optimized rkh skte hai and  
+un necesary re-rendering ko rok skte hai, 
+
+And Adding LOADER Inside this
+
+-----------------------------------------
+
+dummyJsonAPi -> idr se Api lenge, GETALLProduct 
